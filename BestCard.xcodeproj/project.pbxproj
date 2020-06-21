@@ -20,6 +20,8 @@
 		7E4B393724964E08000DD9F1 /* CardDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B393624964E08000DD9F1 /* CardDetails.swift */; };
 		7E4B393A2496530A000DD9F1 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B39392496530A000DD9F1 /* ImageLoader.swift */; };
 		7E4B393E2496D621000DD9F1 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B393D2496D621000DD9F1 /* AsyncImage.swift */; };
+		7E85F3F1249DB44000B638B0 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E85F3F0249DB44000B638B0 /* Category.swift */; };
+		7E85F3F3249EE87100B638B0 /* HTMLText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E85F3F2249EE87100B638B0 /* HTMLText.swift */; };
 		7ED9291D24986F6200173F1E /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED9291C24986F6200173F1E /* Font.swift */; };
 		7ED9291F2498772800173F1E /* CardLandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED9291E2498772800173F1E /* CardLandingView.swift */; };
 		7EF49E46249C09D30086C4C3 /* HorizonalCardListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF49E45249C09D30086C4C3 /* HorizonalCardListCell.swift */; };
@@ -41,6 +43,8 @@
 		7E4B393624964E08000DD9F1 /* CardDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetails.swift; sourceTree = "<group>"; };
 		7E4B39392496530A000DD9F1 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		7E4B393D2496D621000DD9F1 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		7E85F3F0249DB44000B638B0 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		7E85F3F2249EE87100B638B0 /* HTMLText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLText.swift; sourceTree = "<group>"; };
 		7ED9291C24986F6200173F1E /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		7ED9291E2498772800173F1E /* CardLandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLandingView.swift; sourceTree = "<group>"; };
 		7EF49E45249C09D30086C4C3 /* HorizonalCardListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizonalCardListCell.swift; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 				7E03C37824973AFE00C93CD0 /* CardListRow.swift */,
 				7EF49E45249C09D30086C4C3 /* HorizonalCardListCell.swift */,
 				7E03C37A249741EF00C93CD0 /* CardDetailView.swift */,
+				7E85F3F0249DB44000B638B0 /* Category.swift */,
+				7E85F3F2249EE87100B638B0 /* HTMLText.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -208,8 +214,10 @@
 				7E4B391D24964873000DD9F1 /* AppDelegate.swift in Sources */,
 				7ED9291F2498772800173F1E /* CardLandingView.swift in Sources */,
 				7E4B391F24964873000DD9F1 /* SceneDelegate.swift in Sources */,
+				7E85F3F3249EE87100B638B0 /* HTMLText.swift in Sources */,
 				7E4B393A2496530A000DD9F1 /* ImageLoader.swift in Sources */,
 				7E4B392124964873000DD9F1 /* ContentView.swift in Sources */,
+				7E85F3F1249DB44000B638B0 /* Category.swift in Sources */,
 				7E4B393524964DAA000DD9F1 /* Data.swift in Sources */,
 				7E4B393724964E08000DD9F1 /* CardDetails.swift in Sources */,
 				7E03C37924973AFE00C93CD0 /* CardListRow.swift in Sources */,

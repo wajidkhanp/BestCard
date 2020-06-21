@@ -16,12 +16,6 @@ struct CardDetails: Hashable, Codable, Identifiable {
   var introApr: String
   var benefits: [String]
   var imageURL: URL
-  var category: String
-  
-  enum Category: String, CaseIterable, Codable, Hashable {
-    case amex = "AmEx"
-    case chase = "Chase"
-    case boa = "Bank of America"
-  }
+  var category: [String]
   
 }

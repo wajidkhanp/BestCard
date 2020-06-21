@@ -1,7 +1,7 @@
 [
   {
     "name": "Blue Cash Preferred® Card",
-    "category": "AmEx",
+    "category": ["AMERICAN_EXPRESS", "TOP_PICK", "BALANCE_TRANSFER"],
     "bonus": "Earn $250 back after you spend $1,000 in purchases on your new Card in your first 3 months. You will receive the $250 back in the form of a statement credit.†",
     "annualFee": "$95 Annual Fee",
     "id": 1001,
@@ -16,7 +16,7 @@
   },
   {
     "name": "Cash Magnet® Card",
-    "category": "AmEx",
+    "category": ["AMERICAN_EXPRESS","TOP_PICK", "BALANCE_TRANSFER"],
     "bonus": "Earn $150 back after you spend $1,000 in purchases on your new Card in your first 3 months. You will receive the $150 back in the form of a statement credit.†",
     "annualFee": "No Annual Fee¤",
     "id": 1002,
@@ -28,7 +28,7 @@
   },
   {
     "name": "The Platinum Card®",
-    "category": "AmEx",
+    "category": ["AMERICAN_EXPRESS","TRAVEL"],
     "bonus": "Earn 60,000 Membership Rewards® Points after you use your new Card to make $5,000 in purchases in your first 3 months.†",
     "annualFee": "$550 Annual Fee",
     "id": 1003,
@@ -45,7 +45,7 @@
   },
   {
     "name": "Blue Cash Everyday® Card",
-    "category": "AmEx",
+    "category": ["AMERICAN_EXPRESS", "BALANCE_TRANSFER"],
     "bonus": "Earn $150 back after you spend $1,000 in purchases on your new Card in your first 3 months. You will receive the $150 back in the form of a statement credit.†",
     "annualFee": "No Annual Fee¤",
     "id": 1004,
@@ -59,7 +59,7 @@
   },
   {
     "name": "Chase Freedom Unlimited® credit card",
-    "category": "Chase",
+    "category": ["CHASE", "BALANCE_TRANSFER", "CASH_BACK"],
     "bonus": "Earn $200 cash back after you spend $500 on purchases in your first 3 months from account opening.",
     "annualFee": "No Annual Fee¤",
     "id": 1005,
@@ -71,7 +71,7 @@
   },
   {
     "name": "Chase Freedom® credit card",
-    "category": "Chase",
+    "category": ["CHASE", "CASH_BACK"],
     "bonus": "Best Freedom bonus offer: $200 cash back after you spend $500 on purchases in your first 3 months from account opening.",
     "annualFee": "No Annual Fee¤",
     "id": 1006,
@@ -84,7 +84,7 @@
   },
   {
     "name": "Chase Sapphire Preferred® credit card",
-    "category": "Chase",
+    "category": ["CHASE", "TRAVEL"],
     "bonus": "60,000 bonus points after you spend $4,000 on purchases in the first 3 months from account opening.* That's $750 toward travel when redeemed through Chase Ultimate Rewards®.",
     "annualFee": "$95 Annual Fee¤",
     "id": 1007,
@@ -97,7 +97,7 @@
   },
   {
     "name": "Bank of America® Cash Rewards",
-    "category": "BoA",
+    "category": ["BOA","BALANCE_TRANSFER", "CASH_BACK"],
     "bonus": "$200 online cash rewards bonus offer and 3% cash back in the category of your choice",
     "annualFee": "No Annual Fee¤",
     "id": 1008,
@@ -112,7 +112,7 @@
   },
   {
     "name": "Bank of America® Premium Rewards®",
-    "category": "BoA",
+    "category": ["BOA", "TRAVEL", "TOP_PICK"],
     "bonus": "50,000 online bonus points offer (a $500 value)",
     "annualFee": "$95 Annual Fee¤",
     "id": 1009,
@@ -128,7 +128,7 @@
   },
   {
     "name": "Bank of America® Travel Rewards",
-    "category": "BoA",
+    "category": ["BOA","TRAVEL"],
     "bonus": "25,000 online bonus points offer (a $250 value) and no annual fee†",
     "annualFee": "No Annual Fee¤",
     "id": 1010,
@@ -142,7 +142,7 @@
   },
   {
     "name": "Citi Rewards+℠ Card",
-    "category": "Citi",
+    "category": ["CITI", "REWARDS"],
     "bonus": "Earn 15,000 bonus points after you spend $1,000 in purchases with your card within the first 3 months.",
     "annualFee": "No Annual Fee¤",
     "id": 1011,
@@ -157,7 +157,7 @@
   },
    {
     "name": "Citi® Double Cash Card",
-    "category": "Citi",
+    "category": ["CITI", "CASH_BACK"],
     "bonus": "None",
     "annualFee": "No Annual Fee*",
     "id": 1012,
@@ -170,7 +170,7 @@
   },
    {
     "name": "Citi Premier Card",
-    "category": "Citi",
+    "category": ["CITI", "TRAVEL"],
     "bonus": "Earn 60,000 Bonus Points after making $4,000 in purchases with your card within the first 3 months of account opening.*",
     "annualFee": "$95 Annual Fee",
     "id": 1013,
@@ -184,7 +184,7 @@
   },
    {
     "name": "Costco Anywhere Visa® Card by Citi",
-    "category": "Citi",
+    "category": ["CITI", "TOP_PICK"],
     "bonus": "None",
     "annualFee": "A Costco membership is required to apply.",
     "id": 1014,
@@ -195,6 +195,35 @@
       "2% CASH BACK ON ALL OTHER PURCHASES FROM COSTCO AND COSTCO.COM"
     ],
     "imageURL": "https://www.citi.com/CRD/images/card_no_reflection/Citi-costco-anywhere-visa-credit-card.jpg"
+  },
+   {
+    "name": "Chase Sapphire Reserve®",
+    "category": ["CHASE", "TRAVEL"],
+    "bonus": "Earn 40,000 bonus points after you spend $1,000 on purchases in the first 3 months your account is open.*",
+    "annualFee": "$149 ANNUAL FEE",
+    "id": 1015,
+    "introApr": "",
+    "benefits": [
+      "Earn 2 points for every $1 you spend on Southwest Airlines® purchases.*",
+      "Earn 1 point for every $1 you spend on all other purchases.*",
+      "Receive 7,500 bonus points after your Cardmember anniversary.*",
+      "$75 Southwest annual travel credit*",
+      "4 Upgraded Boardings per year when available*"
+    ],
+    "imageURL": "https://creditcards.chase.com/K-Marketplace/images/cardart/swa_priority_card.png"
+  },
+   {
+    "name": "Wells Fargo Propel American Express® Card",
+    "category": ["WELLSFORGO", "TRAVEL"],
+    "bonus": "20,000 bonus points when you spend $1,000 in purchases in the first 3 months – a $200 cash redemption value1",
+    "annualFee": "$0 Annual Fee",
+    "id": 1016,
+    "introApr": "",
+    "benefits": [
+      "<p>Earn 3x points on2 : Eating out and ordering in; Gas stations, rideshares, and transit; Flights, hotels, homestays, and car rentals; Popular streaming services. </p>",
+      "<b>Earn 1 point for every $1 you spend on all other purchases.*</b>"
+    ],
+    "imageURL": "https://www01.wellsfargomedia.com/assets/images/photography/product/credit-cards/propel_american_express_card-290x150.png"
   }
 
 ]

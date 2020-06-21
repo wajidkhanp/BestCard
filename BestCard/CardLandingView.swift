@@ -10,8 +10,6 @@ import SwiftUI
 
 struct CardLandingView: View {
   
-  let cardCompanyNames = ["America Express","Chase Bank", "Bank of America", "Citi Bank", "Capital One", "US Bank"]
-  let cardCategory = ["Top Pick", "Travel", "Balance Transfer", "Cash Back", "Rewards"]
   let allCardList = cardDetails
   
   var body: some View {
@@ -21,9 +19,9 @@ struct CardLandingView: View {
         Text("Choose Issuing Bank").bold().font(.title)
         ScrollView(.horizontal, showsIndicators: false) {
           HStack {
-            ForEach(0..<cardCompanyNames.count) { i in
-              NavigationLink(destination: ContentView(cardCompanyName: "\(self.cardCompanyNames[i])")){
-                Text("\(self.cardCompanyNames[i])")
+            ForEach(0..<Category.cardCompanyNames.count) { i in
+              NavigationLink(destination: ContentView(cardCategoryName: "\(Category.cardCompanyNames[i])")){
+                Text("\(Category.cardCompanyNames[i])")
                   .foregroundColor(.white)
                   .font(.headline)
                   .frame(width: 150, height: 120)
@@ -37,9 +35,9 @@ struct CardLandingView: View {
         Text("Choose a Category").bold().font(.title)
         ScrollView(.horizontal, showsIndicators: false) {
           HStack {
-            ForEach(0..<cardCategory.count) { i in
-              NavigationLink(destination: ContentView(cardCompanyName: "\(self.cardCategory[i])")){
-                Text("\(self.cardCategory[i])")
+            ForEach(0..<Category.cardCategory.count) { i in
+              NavigationLink(destination: ContentView(cardCategoryName: "\(Category.cardCategory[i])")){
+                Text("\(Category.cardCategory[i])")
                   .foregroundColor(.white)
                   .font(.headline)
                   .frame(width: 150, height: 120)

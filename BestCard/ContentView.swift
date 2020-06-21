@@ -10,46 +10,33 @@ import SwiftUI
 
 struct ContentView: View {
   
-  var passedCompanyName: String
+  var passedCategoryName: String
   
-  init(cardCompanyName: String) {
-    passedCompanyName = cardCompanyName
+  init(cardCategoryName: String) {
+    passedCategoryName = cardCategoryName
   }
   
   
   var body: some View {
-    List(createNewCardlist(allCardList: cardDetails, passCompanyName: passedCompanyName) ) { card in
+    List(createNewCardlist(allCardList: cardDetails, passedCategoryName: passedCategoryName) ) { card in
       NavigationLink(destination: CardDetailView(cardData: card)) {
         CardListRow(cardlist: card)
       }
-    }.navigationBarTitle("\(passedCompanyName)")
+    }.navigationBarTitle("\(passedCategoryName)")
       .onAppear { UITableView.appearance().separatorStyle = .none }
   }
   
 }
 
-func createNewCardlist(allCardList: [CardDetails], passCompanyName: String) -> [CardDetails] {
-  let convertCompanyName: String
-  switch passCompanyName {
-  case "American Express":
-    convertCompanyName = "AmEx"
-  case "Chase Bank":
-    convertCompanyName = "Chase"
-  case "Bank of America":
-    convertCompanyName = "BoA"
-  case "Citi Bank":
-    convertCompanyName = "Citi"
-  case "Capital One":
-    convertCompanyName = "CapitalOne"
-  case "US Bank":
-    convertCompanyName = "USBank"
-  default:
-    convertCompanyName = "AmEx"
-  }
+func createNewCardlist(allCardList: [CardDetails], passedCategoryName: String) -> [CardDetails] {
+  var cardCategory : String = ""
   
+  if let index = Category.categories.values.firstIndex(of: passedCategoryName) {
+    cardCategory = Category.categories.keys[index]
+  }
   var newCardlist: [CardDetails] = []
   for card in allCardList {
-    if(card.category == convertCompanyName){
+    if(card.category.contains(cardCategory) ){
       
       newCardlist.append(card)
     }
@@ -59,6 +46,6 @@ func createNewCardlist(allCardList: [CardDetails], passCompanyName: String) -> [
 
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
-    ContentView(cardCompanyName: "Chase")
+    ContentView(cardCategoryName: "Chase")
   }
 }
